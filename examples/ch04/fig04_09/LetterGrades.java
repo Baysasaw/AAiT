@@ -31,10 +31,7 @@ public class LetterGrades {
             case 9:  // grade was between 90              
             case 10: // and 100, inclusive                
                ++aCount;                               
-               break; // exits switch                  
-            case 8: // grade was between 80 and 89        
-               ++bCount;                               
-               break; // exits switch                      
+               break; // exits switch                   
             case 7: // grade was between 70 and 79        
                ++cCount;                               
                break; // exits switch                      
@@ -44,6 +41,9 @@ public class LetterGrades {
             default: // grade was less than 60            
                ++fCount;                               
                break; // optional; exits switch anyway 
+            case 8: // grade was between 80 and 89        
+               ++bCount;                               
+               break; // exits switch                     
          }                                             
       }  
 

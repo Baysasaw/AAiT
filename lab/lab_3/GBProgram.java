@@ -14,8 +14,5 @@ public class GBProgram{
 		GB.printGrade();
 		double average = GB.averageGrade();
 		System.out.println(average);
-
-
-
 	}
 }
